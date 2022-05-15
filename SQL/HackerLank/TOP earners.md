@@ -16,4 +16,5 @@ LIMIT 1 --(4)최대값을 출력하고 싶으니 ORDER BY, DESC, LIMIT.
 ```
 
 - 최대값을 알고 싶다! 할 때의 `MAX`와 `ORDER BY` 한 후 `DESC` `LIMIT` 주는 방법의 차이가 궁금하다. 
+  - https://datarian-camp.slack.com/archives/C02RBF792NL/p1652625071619489
 
