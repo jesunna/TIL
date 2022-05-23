@@ -1,0 +1,5 @@
+install.packages("dplyr")
+library(dplyr)
+dat<-read.csv(file="C:\\Users\\jsnki\\Documents\\R\\dataset.csv",header=T)
+head(dat)
+mutate(dat, KOBESM = rowMeans(select(dat, starts_with("KOBES")), na.rm = TRUE))
